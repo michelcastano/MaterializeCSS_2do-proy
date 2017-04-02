@@ -3,8 +3,35 @@
 }
 div[class*="columna"]{
   min-height: 50rem;
-  border: 1px solid #eceff1;
+  /*border: 1px solid #eceff1;*/
 }
 div[class*="bloque"]{
   height: 25rem;
 }
+
+.columna-news,.columna-chat{
+  padding: 0 !important;
+}
+
+.nueva-publicacion{
+  min-height: 7rem;
+}
+
+div[class*="publi"]{
+  min-height: 17rem;
+  padding: 2rem !important;
+}
+
+.logo{
+  width: 60px;
+  margin-top: 0.5rem;
+}
+
+.col-noticias{
+  min-height: 50rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+ div[class*="notiimg"]{
+   border: 0.6rem solid orange;
+ }
